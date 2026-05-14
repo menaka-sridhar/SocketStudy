@@ -53,6 +53,38 @@ Socket programming finds applications in various domains, including web developm
 4.	Networked Games: Online multiplayer games rely on socket programming to facilitate communication between game clients and servers.
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
+##Socket Function	Definition:
+
+1.socket():
+Creates a new socket and returns a socket descriptor used for communication.
+
+2.bind():
+Assigns an IP address and port number to a socket.
+
+3.listen():
+Places the server socket in listening mode to wait for client connections.
+
+4.accept():
+
+Accepts a connection request from a client and creates a new socket for communication.
+
+5.Connect():
+Establishes a connection between the client socket and the server.
+
+6.send():
+Sends data from one socket to another connected socket.
+
+7.recv():
+Receives data sent from another socket.
+
+8.close():
+Closes the socket connection and releases resources.
+
+9.sendto():
+Sends data to a specific address using connectionless communication (UDP).
+
+10.recvfrom():
+  Receives data along with the sender’s address in UDP communication.
 
 ## Result:
 Thus the study of Socket Programming Completed Successfully
