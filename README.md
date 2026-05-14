@@ -14,19 +14,16 @@ To perform a study on Socket Programming
 •	Stream Sockets provide a reliable, connection-oriented communication, while Datagram Sockets are connectionless and operate in a best-effort mode.
 
 2. Client-Server Model
-
 •	Socket programming typically follows the client-server model.
 •	The server listens for incoming connections from clients, while clients initiate connections to the server.
 •	Servers are passive, waiting for connection requests, and clients are active, initiating communication.
 
 3, TCP/IP Protocol:
-
 •	Transmission Control Protocol (TCP) and Internet Protocol (IP) are the foundational protocols for socket programming.
 •	TCP provides reliable, connection-oriented communication, ensuring data integrity and order.
 •	IP facilitates the routing of data between devices in a network.
 
 4.Basic Socket Functions:
-
 •	Socket programming involves a set of functions provided by the operating system or programming language to create, bind, listen, accept, connect, send, and receive data through sockets.
 •	Examples of functions include socket(), bind(), listen(), accept(), connect(), send(), and recv().
 
@@ -51,37 +48,25 @@ Socket programming finds applications in various domains, including web developm
 5.	RPC mechanisms: which allow processes to execute code on a remote server, often use socket programming for communication.
 
 ## Socket Function	Definition:
+1.socket():Creates a new socket and returns a socket descriptor used for communication.
 
-1.socket():
-Creates a new socket and returns a socket descriptor used for communication.
+2.bind():Assigns an IP address and port number to a socket.
 
-2.bind():
-Assigns an IP address and port number to a socket.
+3.listen():Places the server socket in listening mode to wait for client connections.
 
-3.listen():
-Places the server socket in listening mode to wait for client connections.
+4.accept():Accepts a connection request from a client and creates a new socket for communication.
 
-4.accept():
+5.Connect():Establishes a connection between the client socket and the server.
 
-Accepts a connection request from a client and creates a new socket for communication.
+6.send():Sends data from one socket to another connected socket.
 
-5.Connect():
-Establishes a connection between the client socket and the server.
+7.recv():Receives data sent from another socket.
 
-6.send():
-Sends data from one socket to another connected socket.
+8.close():Closes the socket connection and releases resources.
 
-7.recv():
-Receives data sent from another socket.
+9.sendto():Sends data to a specific address using connectionless communication (UDP).
 
-8.close():
-Closes the socket connection and releases resources.
-
-9.sendto():
-Sends data to a specific address using connectionless communication (UDP).
-
-10.recvfrom():
-  Receives data along with the sender’s address in UDP communication.
+10.recvfrom():Receives data along with the sender’s address in UDP communication.
 
 ## Result:
 Thus the study of Socket Programming Completed Successfully
